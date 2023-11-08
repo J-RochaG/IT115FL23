@@ -1,0 +1,11 @@
+{
+    "name": "Jose Rocha",
+    "age": 27,
+    "city": "Seattle,WA",
+    "interests": [
+        "gym",
+        "basketball",
+        "videogames"
+    ],
+    "is_student": true
+}

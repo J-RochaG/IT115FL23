@@ -13,7 +13,7 @@ data = {
     
 }
 
-# This opens the file as json_file
+# This opens the file as json_file and writes to the file.
 with open('data.json','w') as json_file:
 
     json.dump(data,json_file,indent=4)
@@ -32,7 +32,7 @@ print(loaded_data)
 loaded_data['age'] = 27
 loaded_data['interests'].append('sports')
 
-#We modify the JSon file. 
+#We modify the data back to the JSON file.
 with open('data.json', 'w') as json_file:
     
     json.dump(loaded_data, json_file, indent=4)
